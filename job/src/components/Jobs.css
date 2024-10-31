@@ -1,0 +1,44 @@
+.search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.job-listings-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.job-listings-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.jobs-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.job-card {
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.details-link {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.details-link:hover {
+    text-decoration: underline;
+}
+  
